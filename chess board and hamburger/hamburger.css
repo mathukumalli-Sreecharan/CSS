@@ -1,0 +1,19 @@
+img{
+  width: 50px;
+}
+#checkbox{
+  display: none;
+}
+.content>p{
+  width: 200px;
+  background-color: aqua;
+  padding: 3px;
+  text-align: center;
+  font-size: 30px;
+}
+.content{
+  display: none;
+}
+#checkbox:checked~.content{
+  display: block;
+}
