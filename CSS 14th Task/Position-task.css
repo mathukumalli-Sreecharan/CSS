@@ -1,0 +1,39 @@
+*{
+    margin-top: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.container{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+.image{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.header{
+    padding: 0px 20px;
+    height: 60px;
+    position: fixed;
+    background-color: white;
+    box-shadow: 2px 1px 10px;
+}
+span{
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+}
+.msg{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    font-size: 100px;
+}
+nav{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
